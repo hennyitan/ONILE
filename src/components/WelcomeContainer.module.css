@@ -1,0 +1,59 @@
+.welcomeContainerChild {
+  height: 69px;
+  width: 3px;
+  border-radius: var(--br-5xs);
+  background-color: var(--greys-400);
+}
+.k,
+.renters,
+.welcomeContainerChild {
+  position: relative;
+  z-index: 1;
+}
+.k {
+  height: 66px;
+  line-height: 140%;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.renters {
+  line-height: 130%;
+}
+.descriptionFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  font-size: var(--text-body-2-size);
+  color: var(--white);
+  font-family: var(--text-small);
+}
+.calvinBaileyBox,
+.welcomeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.welcomeContainer {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--heading-h2-size);
+  color: var(--primary-100);
+  font-family: var(--heading-h6);
+}
+@media screen and (max-width: 750px) {
+  .k {
+    font-size: var(--font-size-26xl);
+    line-height: 63px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .k {
+    font-size: var(--font-size-15xl);
+    line-height: 47px;
+  }
+}

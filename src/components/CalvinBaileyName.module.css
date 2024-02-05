@@ -1,0 +1,264 @@
+.frameChild {
+  width: 1920px;
+  height: 660px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: none;
+  max-width: 100%;
+}
+.rent {
+  color: var(--color-navajowhite);
+}
+.span {
+  color: var(--primary-200);
+}
+.smart {
+  color: var(--white);
+}
+.live {
+  color: var(--color-navajowhite);
+}
+.span1 {
+  color: var(--color-whitesmoke-300);
+}
+.rentSmartLiveEasy,
+.theFutureOf {
+  margin: 0;
+}
+.buyRentAnd,
+.rentSmartLiveContainer {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.rentSmartLiveContainer {
+  height: 202px;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 700;
+}
+.buyRentAnd {
+  font-size: var(--heading-h5-size);
+  font-weight: 600;
+  max-width: 100%;
+}
+.questionItem,
+.rentSmartLiveEasyTheFutParent,
+.tag {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rentSmartLiveEasyTheFutParent {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.questionItem,
+.tag {
+  width: 1209px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.questionItem {
+  width: 422px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.search01Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.searchForRentals {
+  width: 288px;
+  border: 0;
+  outline: 0;
+  font-family: var(--text-small);
+  font-size: var(--text-body-2-size);
+  background-color: transparent;
+  height: 21px;
+  position: relative;
+  line-height: 130%;
+  color: var(--text-grey);
+  text-align: center;
+  display: inline-block;
+}
+.search01Parent {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--text-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-base) var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+  min-width: 312px;
+  max-width: 100%;
+  z-index: 1;
+}
+.browseProperties {
+  position: relative;
+  font-size: var(--text-body-2-size);
+  font-family: var(--text-small);
+  color: var(--text-white);
+  text-align: left;
+}
+.currencySymbol {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-xl) var(--padding-base)
+    var(--padding-5xl);
+  background-color: var(--primary-main);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.currencySymbol:hover {
+  background-color: var(--color-mediumslateblue);
+}
+.frameParent,
+.searchQuestions {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+}
+.searchQuestions {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-8xl);
+  min-width: 495px;
+}
+.questionListFAQChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.questionListFAQ {
+  height: 88px;
+  width: 228px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.iconlyLightSearch,
+.iconlyLightSearchWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.iconlyLightSearch {
+  width: 1028px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.iconlyLightSearchWrapper {
+  width: 1209px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: var(--heading-h2-size);
+  color: var(--primary-100);
+}
+.calvinBaileyName,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-101xl) var(--padding-xl) var(--padding-62xl)
+    var(--padding-86xl);
+  gap: var(--gap-24xl);
+  background-image: url(/public/frame-1000000806@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.calvinBaileyName {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-25xl);
+  text-align: center;
+  font-size: var(--heading-h1-size);
+  color: var(--white);
+  font-family: var(--heading-h6);
+}
+@media screen and (max-width: 1275px) {
+  .rectangleParent {
+    padding-left: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rentSmartLiveContainer {
+    font-size: var(--font-size-39xl);
+    line-height: 81px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .searchQuestions {
+    min-width: 100%;
+  }
+  .iconlyLightSearch {
+    gap: var(--gap-19xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-24xl);
+    padding-left: var(--padding-7xl);
+    padding-top: var(--padding-59xl);
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+  .calvinBaileyName {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rentSmartLiveContainer {
+    font-size: var(--font-size-24xl);
+    line-height: 60px;
+  }
+  .buyRentAnd {
+    font-size: var(--text-body-2-size);
+  }
+  .questionItem {
+    flex-wrap: wrap;
+  }
+}

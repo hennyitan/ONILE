@@ -1,0 +1,29 @@
+.logIn {
+  height: 30px;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+}
+.button {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-goldenrod);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-h5-size);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .logIn {
+    font-size: var(--text-body-2-size);
+  }
+}

@@ -1,0 +1,616 @@
+.secondGroupChild {
+  width: 1262px;
+  height: 666px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.groupIcon,
+.groupIcon1 {
+  position: absolute;
+  top: 157.5px;
+  left: 2.4px;
+  width: 187.6px;
+  height: 11.9px;
+}
+.groupIcon1 {
+  top: 6.2px;
+  left: 0;
+  width: 173.6px;
+  height: 51.7px;
+}
+.groupIcon2 {
+  position: absolute;
+  width: calc(100% - 24px);
+  top: 27.1px;
+  right: 10px;
+  left: 14px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 104.1px;
+  z-index: 1;
+}
+.groupIcon3 {
+  position: absolute;
+  top: 0;
+  left: 20.1px;
+  width: 139.4px;
+  height: 152.5px;
+  z-index: 2;
+}
+.groupIcon4,
+.groupIcon5,
+.vectorIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon4 {
+  height: 100%;
+  width: calc(100% - 4.7px);
+  top: 0;
+  right: 2.2px;
+  bottom: 0;
+  left: 2.5px;
+}
+.groupIcon5,
+.vectorIcon {
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.groupIcon5 {
+  height: 26.25%;
+  top: 15.27%;
+  bottom: 58.47%;
+  z-index: 1;
+}
+.vectorIcon {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.groupIcon6 {
+  position: absolute;
+  top: 92.4px;
+  left: 23.2px;
+  width: 40.3px;
+  height: 13.3px;
+  z-index: 1;
+}
+.groupIcon7,
+.groupIcon8,
+.groupIcon9,
+.vector {
+  position: absolute;
+  left: 6.6px;
+  height: 13.3px;
+  z-index: 1;
+}
+.vector {
+  margin: 0;
+  top: 92.4px;
+  width: 13.3px;
+}
+.groupIcon7,
+.groupIcon8,
+.groupIcon9 {
+  top: 16.1px;
+  width: 23.1px;
+}
+.groupIcon8,
+.groupIcon9 {
+  left: 40.4px;
+}
+.groupIcon9 {
+  height: 6.51%;
+  width: 70.36%;
+  top: 0;
+  right: 14.74%;
+  bottom: 93.49%;
+  left: 14.89%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group1 {
+  position: absolute;
+  height: 94.91%;
+  width: calc(100% - 11.7px);
+  top: 2.55%;
+  right: 5.7px;
+  bottom: 2.55%;
+  left: 6px;
+  z-index: 2;
+}
+.groupIcon10,
+.vectorIcon1 {
+  position: absolute;
+  height: 35.42%;
+  width: calc(100% - 14.6px);
+  top: 29.02%;
+  right: 6.9px;
+  bottom: 35.56%;
+  left: 7.7px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 3;
+}
+.vectorIcon1 {
+  height: 94.76%;
+  width: calc(100% - 11.9px);
+  top: 2.76%;
+  right: 5.6px;
+  bottom: 2.47%;
+  left: 6.3px;
+  z-index: 4;
+}
+.group {
+  position: absolute;
+  top: 26.4px;
+  left: 50.5px;
+  width: 80.2px;
+  height: 137.5px;
+  z-index: 3;
+}
+.groupIcon11,
+.groupIcon12 {
+  position: absolute;
+  top: 81.2px;
+  left: 10.4px;
+  width: 44.6px;
+  height: 84.2px;
+  z-index: 5;
+}
+.groupIcon12 {
+  top: 32.5px;
+  left: 128.4px;
+  width: 48.4px;
+  height: 133px;
+}
+.fourthGroup {
+  height: 169px;
+  flex: 1;
+  position: relative;
+}
+.objects {
+  width: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.accountType {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.chooseTheAccount {
+  align-self: stretch;
+  height: 60px;
+  position: relative;
+  font-size: var(--heading-h5-size);
+  line-height: 30px;
+  color: var(--black-600);
+  display: inline-block;
+  z-index: 2;
+}
+.accountTypeSelector {
+  width: 506px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.frameChild {
+  height: 132px;
+  width: 355px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  border: 1px solid var(--primary-main);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.serviceProviderFrame {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.tenant {
+  margin: 0;
+  height: 36px;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.manageRequestsFrame {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--primary-main);
+  z-index: 1;
+}
+.tenantDashboardFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.findAPlace {
+  position: relative;
+  font-size: var(--text-body-2-size);
+  color: var(--black-600);
+  z-index: 1;
+}
+.tenantDashboardFrameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 177px;
+}
+.frameItem,
+.rectangleParent {
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  border: 1px solid var(--primary-main);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-2xl) var(--padding-23xl)
+    var(--padding-lgi);
+  gap: var(--gap-3xs);
+  min-width: 266px;
+  z-index: 2;
+}
+.frameItem {
+  width: 355px;
+  height: 132px;
+  position: relative;
+  border: 1px solid var(--color-darkgray-100);
+  display: none;
+}
+.frameIcon,
+.landlord {
+  position: relative;
+  z-index: 1;
+}
+.frameIcon {
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.landlord {
+  margin: 0;
+  height: 36px;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+}
+.landlordEllipse {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 158px;
+}
+.frameInner {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-3xs);
+}
+.acceptRentOnline {
+  height: 48px;
+  width: 273px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.acceptRentOnlineManageReWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+  font-size: var(--text-body-2-size);
+  color: var(--black-600);
+}
+.rectangleDiv,
+.rectangleGroup {
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 1;
+  border: 1px solid var(--color-darkgray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-lg) var(--padding-lg);
+  gap: var(--gap-3xs);
+  min-width: 266px;
+  z-index: 2;
+  text-align: left;
+}
+.rectangleDiv {
+  width: 355px;
+  height: 132px;
+  position: relative;
+  border: 1px solid var(--color-gainsboro-100);
+  display: none;
+}
+.frameIcon1,
+.servicePro {
+  position: relative;
+  z-index: 1;
+}
+.frameIcon1 {
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.servicePro {
+  margin: 0;
+  height: 36px;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+}
+.logoAndName,
+.logoAndNameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoAndName {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.logoAndNameWrapper {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.ellipseDiv {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-200);
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.manageRequestsFrom {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.manageRequestsFromLandlordsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 var(--padding-23xl);
+  text-align: left;
+  font-size: var(--text-body-2-size);
+  color: var(--black-600);
+}
+.rectangleContainer {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-mid) var(--padding-lg)
+    var(--padding-lgi);
+  gap: var(--gap-3xs);
+  min-width: 266px;
+  max-width: 100%;
+  z-index: 2;
+}
+.accountTypeSelectorParent,
+.tenantInfoFrame {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.tenantInfoFrame {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-17xl);
+  font-size: var(--font-size-5xl);
+  color: var(--black-700);
+}
+.accountTypeSelectorParent {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-11xl);
+  min-height: 295px;
+}
+.logIn {
+  height: 30px;
+  position: relative;
+  font-size: var(--heading-h5-size);
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+}
+.button,
+.nextButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-goldenrod);
+  padding: var(--padding-3xs);
+}
+.nextButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 145px;
+  z-index: 2;
+}
+.firstGroup,
+.secondGroup {
+  display: flex;
+  max-width: 100%;
+}
+.secondGroup {
+  width: 1262px;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) var(--padding-43xl) var(--padding-16xl)
+    var(--padding-44xl);
+  box-sizing: border-box;
+  gap: var(--gap-22xl);
+  z-index: 1;
+}
+.firstGroup {
+  width: 1391px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--black-800);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .secondGroup {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .accountType {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tenantInfoFrame {
+    gap: var(--gap-17xl);
+  }
+  .secondGroup {
+    gap: var(--gap-22xl);
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .accountType {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .chooseTheAccount {
+    font-size: var(--text-body-2-size);
+    line-height: 24px;
+  }
+  .tenant {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+  .landlord {
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .servicePro {
+    font-size: var(--font-size-lgi);
+  }
+  .manageRequestsFromLandlordsWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .logIn {
+    font-size: var(--text-body-2-size);
+  }
+}

@@ -1,0 +1,161 @@
+.currencySymbolIcon,
+.tag {
+  position: absolute;
+  margin: 0 !important;
+  border-radius: var(--br-5xs);
+}
+.tag {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+}
+.currencySymbolIcon {
+  width: 460px;
+  height: 220px;
+  top: 15px;
+  left: 15px;
+  object-fit: cover;
+  z-index: 1;
+}
+.calvinBailey {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.calvinBaileyWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl);
+}
+.b,
+.tag11 {
+  position: relative;
+}
+.tag11 {
+  margin: 0;
+  height: 21px;
+  width: 21px;
+}
+.b {
+  line-height: 120%;
+  white-space: nowrap;
+}
+.tag11Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.fAQItem,
+.rooms {
+  position: relative;
+}
+.fAQItem {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rooms {
+  line-height: 120%;
+}
+.fAQItemParent {
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.descriptionInner,
+.fAQItemParent,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-items: center;
+  gap: var(--gap-10xs);
+}
+.descriptionInner {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs);
+  font-size: var(--text-small-size);
+  color: var(--black-600);
+}
+.situatedAlongThe,
+.welcomeToOceanview {
+  font-weight: 300;
+}
+.welcomeToOceanviewContainer {
+  align-self: stretch;
+  height: 78px;
+  position: relative;
+  font-size: var(--text-body-2-size);
+  color: var(--black-500);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameIcon,
+.frameIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.frameIcon1 {
+  left: 36px;
+}
+.frameGroup {
+  width: 56px;
+  height: 20px;
+  position: relative;
+}
+.card,
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.description {
+  width: 460px;
+  margin: 0 !important;
+  position: absolute;
+  top: 250px;
+  left: 15px;
+  align-items: flex-end;
+  gap: var(--gap-6xs);
+  z-index: 1;
+}
+.card {
+  align-self: stretch;
+  height: 431px;
+  align-items: center;
+  padding: var(--padding-mini);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--heading-h5-size);
+  color: var(--black-700);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .calvinBailey {
+    font-size: var(--text-body-2-size);
+    line-height: 19px;
+  }
+}

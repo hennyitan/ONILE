@@ -1,0 +1,152 @@
+.maskGroup11 {
+  width: 60px;
+  height: 24px;
+  position: relative;
+  object-fit: contain;
+}
+.cardGroup {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.rent {
+  color: var(--greys-black);
+}
+.buy,
+.rent,
+.sell {
+  position: relative;
+  line-height: 120%;
+}
+.groupFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.symbolChild {
+  width: 43px;
+  height: 9px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0;
+  left: 0;
+}
+.login,
+.symbol {
+  position: relative;
+}
+.symbol {
+  width: 238px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-sm) var(--padding-9xs);
+  box-sizing: border-box;
+}
+.login {
+  font-size: var(--text-body-2-size);
+  font-family: var(--text-small);
+  color: var(--primary-400);
+  text-align: left;
+}
+.monthlyYearlySwitcher {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base);
+  background-color: var(--primary-100);
+  flex: 1;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.monthlyYearlySwitcher:hover {
+  background-color: var(--color-lavender-100);
+}
+.signUp {
+  position: relative;
+  font-size: var(--text-body-2-size);
+  font-family: var(--text-small);
+  color: var(--text-white);
+  text-align: left;
+}
+.monthlyYearlySwitcher1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-27xl) var(--padding-base)
+    var(--padding-32xl);
+  background-color: var(--primary-main);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.monthlyYearlySwitcher1:hover {
+  background-color: var(--color-mediumslateblue);
+}
+.cardContainer,
+.monthlyYearlySwitcherParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.monthlyYearlySwitcherParent {
+  width: 344px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.cardContainer {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-15xl) var(--padding-xl) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-314xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--text-body-2-size);
+  color: var(--greys-300);
+  font-family: var(--text-small);
+}
+@media screen and (max-width: 1275px) {
+  .cardContainer {
+    gap: var(--gap-314xl);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .groupFrame {
+    display: none;
+  }
+  .symbol {
+    width: 4px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .cardContainer {
+    gap: var(--gap-314xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .monthlyYearlySwitcherParent {
+    display: none;
+  }
+  .cardContainer {
+    gap: var(--gap-314xl);
+  }
+}

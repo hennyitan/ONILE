@@ -1,0 +1,152 @@
+.registerFormChild {
+  width: 744px;
+  height: 661px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  display: none;
+}
+.o,
+.welcome {
+  text-transform: capitalize;
+}
+.maskGroup11,
+.welcomeTo {
+  position: relative;
+  z-index: 1;
+}
+.welcomeTo {
+  height: 30px;
+  font-size: var(--heading-h5-size);
+  font-family: var(--font-poppins);
+  color: var(--black-600);
+  text-align: left;
+  display: inline-block;
+}
+.maskGroup11 {
+  align-self: stretch;
+  height: 60px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.textFrame {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.enterYourInformation {
+  position: relative;
+  font-size: var(--text-body-2-size);
+  line-height: 30px;
+  font-family: var(--font-poppins);
+  color: var(--black-600);
+  text-align: center;
+  z-index: 1;
+}
+.inputLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+}
+.email {
+  height: 24px;
+  position: relative;
+  font-size: var(--text-body-2-size);
+  font-family: var(--font-poppins);
+  color: var(--neutral-600);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.frameTriple,
+.subFrame,
+.textField {
+  display: flex;
+  justify-content: flex-start;
+}
+.subFrame {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke-200);
+  align-self: stretch;
+  height: 50px;
+  border-radius: var(--br-7xs);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-smi) var(--padding-base);
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-2-size);
+  color: var(--color-darkgray-200);
+  min-width: 250px;
+  z-index: 1;
+}
+.frameTriple,
+.textField {
+  width: 518px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameTriple {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-5xl);
+}
+.logIn {
+  height: 30px;
+  position: relative;
+  font-size: var(--heading-h5-size);
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+}
+.button1 {
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-goldenrod);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.button,
+.registerForm {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 521px;
+  flex-direction: row;
+  justify-content: center;
+}
+.registerForm {
+  margin: 0;
+  width: 744px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-xl) var(--padding-31xl)
+    var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+}

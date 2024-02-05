@@ -1,0 +1,45 @@
+.image200Icon,
+.wrapperImage200 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.image200Icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  transform: scale(1.035);
+}
+.wrapperImage200 {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.button {
+  height: 50px;
+  width: 519px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.loginPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-105xl) 22px 125px var(--padding-xl);
+  box-sizing: border-box;
+  letter-spacing: normal;
+}
